@@ -3,10 +3,6 @@
     /* Example: Blue shadow */
 }
 
-.container-md {
-    transform: .3ms ease !important;
-}
-
 .border-c-blue {
     border-top: none !important;
     border-right: none !important;
@@ -53,14 +49,11 @@
 }
 
 @media only screen and (max-width: 1000px) {
+
     #content {
         display: flex;
         flex-direction: column;
         gap: 5em;
-    }
-
-    .container-md {
-        height: fit-content;
     }
 
     .sosmed {
@@ -71,5 +64,10 @@
     .navbar {
         position: relative !important;
         margin-bottom: 1em;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
     }
 }
