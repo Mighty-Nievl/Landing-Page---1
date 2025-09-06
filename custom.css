@@ -71,10 +71,5 @@
     .navbar {
         position: relative !important;
         margin-bottom: 1em;
-        transform: .3s ease;
     }
-}
-
-.mt-5em {
-  margin-top: 5em;
 }
