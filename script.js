@@ -14,6 +14,6 @@ collapse.addEventListener('show.bs.collapse', () => {
     navbar.classList.add('bg-secondary-subtle');
 });
 
-collapse.addEventListener('hide.bs.collapse', () => {
+collapse.addEventListener('hidden.bs.collapse', () => {
     navbar.classList.remove('bg-secondary-subtle');
 });
