@@ -3,6 +3,10 @@
     /* Example: Blue shadow */
 }
 
+.container-md {
+    transform: .3ms ease !important;
+}
+
 .border-c-blue {
     border-top: none !important;
     border-right: none !important;
@@ -30,7 +34,7 @@
 
 .fa-brands, .fa-solid {
     display: flex;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     justify-content: center;
     align-items: center;
     color: #00ccffcc;
@@ -41,7 +45,7 @@
     height: 4rem;
     width: 4rem;
     transition: .3s ease;
-    
+
     &:hover {
         box-shadow: 0 0 10px #dc3545;
         cursor: pointer;
@@ -62,5 +66,10 @@
     .sosmed {
         display: flex;
         justify-content: center;
+    }
+
+    .navbar {
+        position: relative !important;
+        margin-bottom: 1em;
     }
 }
